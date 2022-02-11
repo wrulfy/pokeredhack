@@ -132,8 +132,8 @@ PoisonEffect:
 	ld hl, wEnemyBattleStatus3
 	ld de, wEnemyToxicCounter
 .ok
-	cp TOXIC
-	jr nz, .normalPoison ; done if move is not Toxic
+	cp POISON_GAS
+	jr nz, .normalPoison ; done if move is not POISON_GAS
 	set BADLY_POISONED, [hl] ; else set Toxic battstatus
 	xor a
 	ld [de], a
