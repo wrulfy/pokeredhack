@@ -42,7 +42,7 @@ CeladonGymErikaPostBattle:
 	ld a, $f0
 	ld [wJoyIgnore], a
 
-CeladonGymReceiveTM22:
+CeladonGymReceiveTM48:
 	ld a, $9
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
@@ -53,7 +53,7 @@ CeladonGymReceiveTM22:
 	ld a, $a
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM22
+	SetEvent EVENT_GOT_TM48
 	jr .gymVictory
 .BagFull
 	ld a, $b
@@ -80,8 +80,8 @@ CeladonGym_TextPointers:
 	dw CeladonGymTrainerText6
 	dw CeladonGymTrainerText7
 	dw ErikaRainbowBadgeInfoText
-	dw ReceivedTM22Text
-	dw TM22NoRoomText
+	dw ReceivedTM48Text
+	dw TM48NoRoomText
 
 CeladonGymTrainerHeaders:
 	def_trainers 2
@@ -105,9 +105,9 @@ ErikaText:
 	text_asm
 	CheckEvent EVENT_BEAT_ERIKA
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM22
+	CheckEventReuseA EVENT_GOT_TM48
 	jr nz, .afterBeat
-	call z, CeladonGymReceiveTM22
+	call z, CeladonGymReceiveTM48
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
@@ -151,14 +151,14 @@ ErikaRainbowBadgeInfoText:
 	text_far _ErikaRainbowBadgeInfoText
 	text_end
 
-ReceivedTM22Text:
-	text_far _ReceivedTM22Text
+ReceivedTM48Text:
+	text_far _ReceivedTM48Text
 	sound_get_item_1
-	text_far _TM22ExplanationText
+	text_far _TM48ExplanationText
 	text_end
 
-TM22NoRoomText:
-	text_far _TM22NoRoomText
+TM48NoRoomText:
+	text_far _TM48NoRoomText
 	text_end
 
 CeladonGymTrainerText1:

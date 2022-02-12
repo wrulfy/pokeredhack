@@ -61,17 +61,17 @@ _ErikaRainbowBadgeInfoText::
 	line "this with you."
 	done
 
-_ReceivedTM22Text::
+_ReceivedTM48Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_TM22ExplanationText::
+_TM48ExplanationText::
 	text_start
 
-	para "TM22 contains"
+	para "TM48 contains"
 	line "CONSTRICT."
 
 	para "your #MON will"
@@ -80,7 +80,7 @@ _TM22ExplanationText::
 	cont "may slow it down"
 	done
 
-_TM22NoRoomText::
+_TM48NoRoomText::
 	text "You should make"
 	line "room for this."
 	done

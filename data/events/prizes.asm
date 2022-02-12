@@ -55,9 +55,9 @@ ENDC
 	db "@"
 
 PrizeMenuTMsEntries:
-	db TM_DRAGON_RAGE
-	db TM_HYPER_BEAM
-	db TM_SUBSTITUTE
+	db MAX_ELIXER
+	db RARECANDY
+	db PP_UP
 	db "@"
 
 PrizeMenuTMsCost:
