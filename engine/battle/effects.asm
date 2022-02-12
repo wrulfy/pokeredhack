@@ -1054,6 +1054,9 @@ ChargeMoveEffectText:
 	jr z, .gotText
 	cp DIG
 	ld hl, DugAHoleText
+	cp WITHDRAWN
+	ld hl, HidInShellText
+	jr z, .gotText
 .gotText
 	ret
 
@@ -1079,6 +1082,10 @@ FlewUpHighText:
 
 DugAHoleText:
 	text_far _DugAHoleText
+	text_end
+
+HidInShellText:
+	text_far _HidInShellText
 	text_end
 
 TrappingEffect:
