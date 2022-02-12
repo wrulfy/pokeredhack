@@ -4,15 +4,15 @@ TechnicalMachinePrices:
 	nybble 3 ; TM01
 	nybble 2 ; TM02
 	nybble 2 ; TM03
-	nybble 1 ; TM04
+	nybble 4 ; TM04
 	nybble 3 ; TM05
-	nybble 4 ; TM06
+	nybble 5 ; TM06
 	nybble 2 ; TM07
 	nybble 4 ; TM08
 	nybble 3 ; TM09
 	nybble 4 ; TM10
 	nybble 2 ; TM11
-	nybble 1 ; TM12
+	nybble 3 ; TM12
 	nybble 4 ; TM13
 	nybble 5 ; TM14
 	nybble 5 ; TM15
@@ -21,12 +21,12 @@ TechnicalMachinePrices:
 	nybble 2 ; TM18
 	nybble 3 ; TM19
 	nybble 2 ; TM20
-	nybble 5 ; TM21
+	nybble 4 ; TM21
 	nybble 5 ; TM22
 	nybble 5 ; TM23
-	nybble 2 ; TM24
+	nybble 4 ; TM24
 	nybble 5 ; TM25
-	nybble 4 ; TM26
+	nybble 5 ; TM26
 	nybble 5 ; TM27
 	nybble 2 ; TM28
 	nybble 4 ; TM29
@@ -45,8 +45,8 @@ TechnicalMachinePrices:
 	nybble 2 ; TM42
 	nybble 5 ; TM43
 	nybble 2 ; TM44
-	nybble 2 ; TM45
-	nybble 4 ; TM46
+	nybble 3 ; TM45
+	nybble 5 ; TM46
 	nybble 3 ; TM47
 	nybble 4 ; TM48
 	nybble 4 ; TM49
