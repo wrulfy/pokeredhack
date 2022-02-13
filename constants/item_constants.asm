@@ -161,14 +161,14 @@ TM01 EQU const_value
 	add_tm RAZOR_WIND   ; $CA
 	add_tm SWORDS_DANCE ; $CB
 	add_tm WHIRLWIND    ; $CC
-	add_tm MEGA_KICK    ; $CD
+	add_tm SLUDGE       ; $CD
 	add_tm POISON_GAS   ; $CE
 	add_tm HORN_DRILL   ; $CF
 	add_tm BODY_SLAM    ; $D0
 	add_tm TAKE_DOWN    ; $D1
 	add_tm DOUBLE_EDGE  ; $D2
 	add_tm BUBBLEBEAM   ; $D3
-	add_tm MIST         ; $D4
+	add_tm HYDRO_PUMP   ; $D4
 	add_tm ICE_BEAM     ; $D5
 	add_tm GROWTH       ; $D6
 	add_tm HYPER_BEAM   ; $D7
@@ -178,7 +178,7 @@ TM01 EQU const_value
 	add_tm SEISMIC_TOSS ; $DB
 	add_tm LIGHT_SCREEN ; $DC
 	add_tm MEGA_DRAIN   ; $DD
-	add_tm SOLAR_BEAM   ; $DE
+	add_tm SOLARBEAM    ; $DE
 	add_tm DRAGON_RAGE  ; $DF
 	add_tm THUNDERBOLT  ; $E0
 	add_tm SMOKESCREEN  ; $E1
@@ -205,7 +205,7 @@ TM01 EQU const_value
 	add_tm CONFUSE_RAY  ; $F6
 	add_tm EXPLOSION    ; $F7
 	add_tm CONSTRICT    ; $F8
-	add_tm HYDRO_PUMP   ; $F9
+	add_tm MIST         ; $F9
 	add_tm SUBSTITUTE   ; $FA
 ASSERT NUM_TMS == const_value - TM01, "NUM_TMS ({d:NUM_TMS}) does not match the number of add_tm definitions"
 
