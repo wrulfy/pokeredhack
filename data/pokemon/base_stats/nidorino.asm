@@ -17,7 +17,7 @@
 	tmhm SLUDGE,       POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     COUNTER,      \
 	     THUNDERBOLT,  SMOKESCREEN,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   CUT           \
+	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   CUT,          \
 	     STRENGTH      
 	; end
 

@@ -1054,7 +1054,7 @@ ChargeMoveEffectText:
 	jr z, .gotText
 	cp DIG
 	ld hl, DugAHoleText
-	cp WITHDRAWN
+	cp WITHDRAW
 	ld hl, HidInShellText
 	jr z, .gotText
 .gotText

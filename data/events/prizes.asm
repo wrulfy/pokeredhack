@@ -56,7 +56,7 @@ ENDC
 
 PrizeMenuTMsEntries:
 	db MAX_ELIXER
-	db RARECANDY
+	db RARE_CANDY
 	db PP_UP
 	db "@"
 
