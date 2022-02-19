@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, THUNDERBOLT,  DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SWIFT,        \
-	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     SEISMIC_TOSS, THUNDERBOLT,  EARTHQUAKE,   DIG,          MIMIC,        \
+	     DOUBLE_TEAM,  BIDE,         METRONOME,    EGG_BOMB,     SWIFT,        \
+	     REST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

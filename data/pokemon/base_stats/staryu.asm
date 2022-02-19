@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   \
-	     ICE_BEAM,     GROWTH,       LIGHT_SCREEN, THUNDERBOLT,  \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         FLASH
+	     ICE_BEAM,     GROWTH,       LIGHT_SCREEN, THUNDERBOLT,  PSYCHIC_M,    \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     SWIFT,        REST,         THUNDER_WAVE, CONFUSE_RAY,  MIST,         \
+	     SUBSTITUTE,   SURF,         FLASH         
 	; end
 
 	db 0 ; padding

@@ -15,11 +15,11 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     HYDRO_PUMP,   ICE_BEAM,     PAY_DAY,      LIGHT_SCREEN, \
-	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
+	     HYDRO_PUMP,   ICE_BEAM,     PAY_DAY,      LIGHT_SCREEN, EARTHQUAKE,   \
+	     FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETHROWER, SWIFT,        \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, MIST,         SUBSTITUTE,   \
+	     SURF,         STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

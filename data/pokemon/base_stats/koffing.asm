@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SLUDGE,       POISON_GAS,   GROWTH,       THUNDERBOLT,  SMOKESCREEN,  MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   REST,         \
-	     EXPLOSION,    SUBSTITUTE
+	tmhm SLUDGE,       POISON_GAS,   GROWTH,       THUNDERBOLT,  SMOKESCREEN,  \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
+	     FLAMETHROWER, REST,         EXPLOSION,    SUBSTITUTE,   FLY,          \
+	     FLASH         
 	; end
 
 	db 0 ; padding

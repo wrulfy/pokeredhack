@@ -17,8 +17,8 @@
 	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     GROWTH,       \
 	     HYPER_BEAM,   LIGHT_SCREEN, SOLARBEAM,    THUNDERBOLT,  PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     SELFDESTRUCT, SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     CONFUSE_RAY,  MIST,         SUBSTITUTE,   FLY,          FLASH         
 	; end
 
 	db 0 ; padding

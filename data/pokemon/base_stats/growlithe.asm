@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm WHIRLWIND,    POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     DRAGON_RAGE,  SMOKESCREEN,  DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE
+	     DRAGON_RAGE,  SMOKESCREEN,  DIG,          TELEPORT,     MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETHROWER, SWIFT,        \
+	     REST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

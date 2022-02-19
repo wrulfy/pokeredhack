@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   POISON_GAS,   HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKY_ATTACK,   \
+	     REST,         SUBSTITUTE,   FLY           
 	; end
 
 	db 0 ; padding

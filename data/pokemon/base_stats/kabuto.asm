@@ -15,9 +15,10 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     HYDRO_PUMP,   ICE_BEAM,     GROWTH,       MEGA_DRAIN,   MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
-	     SURF
+	     HYDRO_PUMP,   ICE_BEAM,     GROWTH,       MEGA_DRAIN,   DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         EGG_BOMB,     \
+	     GUILLOTINE,   REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   \
+	     SURF          
 	; end
 
 	db 0 ; padding

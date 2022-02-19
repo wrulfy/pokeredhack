@@ -14,7 +14,7 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm WATER_GUN   
+	tmhm HYDRO_PUMP    
 	; end
 
 	db 0 ; padding

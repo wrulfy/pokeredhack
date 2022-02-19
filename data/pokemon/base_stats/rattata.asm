@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     ICE_BEAM,     COUNTER,      THUNDERBOLT,  \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE
+	     ICE_BEAM,     COUNTER,      THUNDERBOLT,  DIG,          TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        REST,         \
+	     THUNDER_WAVE, MIST,         SUBSTITUTE,   CUT           
 	; end
 
 	db 0 ; padding

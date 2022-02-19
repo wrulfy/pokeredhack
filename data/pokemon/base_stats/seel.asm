@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   ICE_BEAM,     HYDRO_PUMP,   PAY_DAY,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     BUBBLEBEAM,   ICE_BEAM,     HYDRO_PUMP,   PAY_DAY,      MIMIC,        \
+	     DOUBLE_TEAM,  BIDE,         SWIFT,        REST,         MIST,         \
+	     SUBSTITUTE,   SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

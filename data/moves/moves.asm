@@ -28,7 +28,7 @@ Moves:
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, DRAGON,       100, 30
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 25
 	move WHIRLWIND,    DEFENSE_DOWN_SIDE_EFFECT,    65, DRAGON,       100, 20
-	move FLY,          FLY_EFFECT,                 100, FLYING,        95, 10
+	move FLY,          FLY_EFFECT,                  70, FLYING,       100, 20
 	move BIND,         TRAPPING_EFFECT,             35, GRASS,         75, 10
 	move SLAM,         NO_ADDITIONAL_EFFECT,        80, DRAGON,        90, 20
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        40, GRASS,        100, 30
@@ -63,7 +63,7 @@ Moves:
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    40, POISON,       100, 30
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 30
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
-	move MIST,         SPEED_DOWN1_EFFECT,          50, ICE,           90, 15
+	move MIST,         SPEED_DOWN1_EFFECT,          50, ICE,          100, 20
 	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,        100, 30
 	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,         85,  5
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
@@ -79,7 +79,7 @@ Moves:
 	move LOW_KICK,     FLINCH_SIDE_EFFECT1,         40, FIGHTING,     100, 30
 	move COUNTER,      NO_ADDITIONAL_EFFECT,         1, FIGHTING,     100, 20
 	move SEISMIC_TOSS, SPECIAL_DAMAGE_EFFECT,        1, FIGHTING,     100, 20
-	move STRENGTH,     NO_ADDITIONAL_EFFECT,        95, NORMAL,       100, 15
+	move STRENGTH,     NO_ADDITIONAL_EFFECT,        70, ROCK,         100, 20
 	move ABSORB,       DRAIN_HP_EFFECT,             30, GRASS,        100, 30
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             80, GRASS,        100, 10
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,         90, 10
@@ -143,7 +143,7 @@ Moves:
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,           95, 20
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      90, BUG,          100, 15
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 10
-	move KINESIS,      ACCURACY_DOWN1_EFFECT,       50, PSYCHIC_TYPE,  90, 15
+	move KINESIS,      ACCURACY_DOWN1_EFFECT,       50, PSYCHIC_TYPE,  90, 20
 	move SOFTBOILED,   HEAL_EFFECT,                  0, NORMAL,       100, 20
 	move HI_JUMP_KICK, JUMP_KICK_EFFECT,           120, FIGHTING,      90, 10
 	move GLARE,        PARALYZE_EFFECT,              0, NORMAL,       100, 30

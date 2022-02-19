@@ -15,8 +15,9 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SOLARBEAM,    SMOKESCREEN,  MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     SOLARBEAM,    SMOKESCREEN,  EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,         FLAMETHROWER, SWIFT,        REST,         \
+	     SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

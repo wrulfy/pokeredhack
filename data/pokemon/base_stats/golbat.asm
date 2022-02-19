@@ -15,8 +15,9 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        REST,         SUBSTITUTE
+	     HYPER_BEAM,   MEGA_DRAIN,   TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         CONFUSE_RAY,  \
+	     SUBSTITUTE,   FLY           
 	; end
 
 	db 0 ; padding

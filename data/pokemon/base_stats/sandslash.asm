@@ -17,8 +17,8 @@
 	tmhm SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     CUT,          STRENGTH
+	     EGG_BOMB,     SWIFT,        GUILLOTINE,   REST,         SUBSTITUTE,   \
+	     CUT,          STRENGTH      
 	; end
 
 	db 0 ; padding
